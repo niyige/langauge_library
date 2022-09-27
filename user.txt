@@ -1,0 +1,13 @@
+
+工具简单介绍：
+
+StringToExcelScript   -----------------------------  一键导出项目中的字符串，保存在output.xlsx
+
+ImportFromExcelScript -----------------------------  一键导入.xlxs文件中的字符串到项目，xlxs文件名称必须为input.xlsx(代码里面可修改)
+
+LanguageKeyMap ------------------------------------  新增支持国家语言，这里面添加对应的数据
+
+使用介绍：
+    1   当每次有新的字符串，添加到values中（一定要加）， 需要把新增到values中的字符串分别copy到其他values-xxx中（此时是替换，可以不做这步）
+    2   新增完成后，导出文件，给产品去提交翻译。
+    3   翻译后 重命名为 input.xlsx 文件，运行 ImportFromExcelScript 导入。
